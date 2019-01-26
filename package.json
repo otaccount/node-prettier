@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "yarn fix && yarn act",
+    "fix": "yarn eslint . --fix",
+    "act": "node app.js"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.1"
+  }
+}
