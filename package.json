@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "start": "yarn fix && yarn act",
-    "fix": "yarn eslint . --fix",
-    "act": "node app.js"
+    "fs": "yarn f && yarn s",
+    "f": "yarn eslint . --fix",
+    "s": "node app.js"
   },
   "dependencies": {
     "moment": "^2.24.0"
